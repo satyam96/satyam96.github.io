@@ -292,7 +292,7 @@ a:not([href]):not([tabindex]) {
 }
 
 .preloader .anim {
-    color: #FFF;
+    color: #CCC;
     font-size: 60px;
     position: absolute;
     top: 50%;
@@ -1032,14 +1032,30 @@ h2.menu-item:after {
 }
 
 .social a:hover {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.4);
     border: 1px solid transparent;
-    color: #333;
+/*    color: #333;*/
 }
 
 .dark .social a {
     border: 1px solid #333;
     color: #333;
+}
+.social .fa-facebook-f:hover{
+    color: #3b5998;
+/*    background-color: #fff;*/
+}
+.fa-linkedin:hover{
+/*    background-color:  #0077B5;*/
+    color: #0077B5;
+}
+.fa-instagram:hover{
+/*    background-color: #262626;*/
+    color: #c13584;
+}
+.fa-twitter:hover{
+/*    background-color: #1DA1F2;*/
+    color: #1DA1F2;
 }
 
 /*-------------------------------------------------------------------
@@ -2796,33 +2812,5 @@ h4.package {
     .project-nav span {
         display: block;
         width: 100%;
-    }
-}
-
-/*-------------------------------------------------------------------
-
-                         Buy Now Button
-
--------------------------------------------------------------------*/
-
-.buy-now {
-    background-color: #82B441;  
-    color: #FFF; 
-    display: block; 
-    font-size: 13px; 
-    font-weight: 500; 
-    left: 50px;
-    letter-spacing: 1.5px;
-    padding: 3px 15px; 
-    position: absolute;
-    top: 20px; 
-    z-index: 999
-}
-.buy-now:hover {
-    color: #f5f5f5;
-}
-@media (max-width: 1024px){
-    .buy-now {
-        display: none
     }
 }
